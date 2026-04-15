@@ -12,6 +12,7 @@ ln -sf "$PWD/.zshrc" "$HOME"/.zshrc
 ln -sf "$PWD/.tmux.conf" "$HOME"/.tmux.conf
 ln -sf "$PWD/.aider.conf.yml" "$HOME"/.aider.conf.yml
 ln -sf "$PWD/git" "$XDG_CONFIG_HOME"/git
+ln -sf "$PWD/lazygit" "$XDG_CONFIG_HOME"/lazygit
 
 # Zsh plugins
 [ ! -d "$ZSH_CUSTOM_DIR/plugins/zsh-syntax-highlighting" ] && \
